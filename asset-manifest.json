@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/millioner-test/static/css/main.c31cb148.css",
+    "main.js": "/millioner-test/static/js/main.f5e6deb3.js",
+    "static/js/787.1cbdac08.chunk.js": "/millioner-test/static/js/787.1cbdac08.chunk.js",
+    "static/media/Inter-SemiBold.ttf": "/millioner-test/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
+    "static/media/Inter-Regular.ttf": "/millioner-test/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
+    "static/media/hand.svg": "/millioner-test/static/media/hand.03129479706db737116cd068f32ec824.svg",
+    "index.html": "/millioner-test/index.html",
+    "main.c31cb148.css.map": "/millioner-test/static/css/main.c31cb148.css.map",
+    "main.f5e6deb3.js.map": "/millioner-test/static/js/main.f5e6deb3.js.map",
+    "787.1cbdac08.chunk.js.map": "/millioner-test/static/js/787.1cbdac08.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c31cb148.css",
+    "static/js/main.f5e6deb3.js"
+  ]
+}
