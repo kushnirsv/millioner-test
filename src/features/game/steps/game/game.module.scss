@@ -1,0 +1,21 @@
+.root {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  min-height: 100vh;
+  background: var(--grey-light);
+}
+
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 2;
+  }
+}

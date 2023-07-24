@@ -1,0 +1,18 @@
+@mixin resetList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin resetBtn {
+  display: block;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}

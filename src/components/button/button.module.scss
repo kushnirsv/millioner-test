@@ -1,0 +1,31 @@
+@import "styles/mixins";
+
+.root {
+  @include resetBtn();
+
+  height: 64px;
+  width: 296px;
+  border-radius: 12px;
+  background: var(--primary);
+  font-size: 20px;
+  color: var(--white);
+  font-weight: 600;
+  transition: all .3s;
+
+  &:focus {
+    background: var(--primary-dark);
+  }
+
+  &:hover {
+    background: var(--primary-light);
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .root {
+    width: 288px;
+    height: 48px;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+}

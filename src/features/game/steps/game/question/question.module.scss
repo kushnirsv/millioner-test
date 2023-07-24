@@ -1,0 +1,181 @@
+.questionSection {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 120px 140px 130px 80px;
+
+  > ul {
+    display: flex;
+    width: 844px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+
+.option {
+  position: relative;
+  flex: 1 0 50%;
+  height: 72px;
+  display: flex;
+  margin: 16px 0;
+  color: var(--dark);
+  font-weight: 400;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-0.5px);
+    width: 100%;
+    height: 1px;
+    background: var(--grey);
+  }
+
+  svg {
+    fill: var(--white);
+    stroke: var(--grey);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  button {
+    margin: auto;
+    position: absolute;
+    width: 389px;
+    height: 72px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    text-align: left;
+    padding: 0 32px;
+    font-size: 20px;
+
+    span {
+      color: var(--primary);
+      font-weight: 600;
+    }
+  }
+
+  &:hover {
+    svg {
+      stroke: var(--primary);
+    }
+
+    &:before {
+      background: var(--primary);
+    }
+  }
+
+  &.isSelected {
+    svg {
+      fill: var(--primary-lighter);
+      stroke: var(--primary);
+    }
+
+    &:before {
+      background: var(--primary);
+    }
+  }
+
+  &.isWrong {
+    svg {
+      stroke: var(--error);
+      fill: var(--error-light);
+    }
+
+    &:before {
+      background: var(--error);
+    }
+  }
+
+  &.isSucceed {
+    svg {
+      stroke: var(--success);
+      fill: var(--success-light);
+    }
+
+    &:before {
+      background: var(--success);
+    }
+  }
+}
+
+@media screen and (max-width: 1536px) {
+  .questionSection {
+    > ul {
+      width: 700px;
+    }
+  }
+
+  .option {
+    height: 56px;
+
+    svg {
+      width: 310px;
+      height: 56px;
+    }
+
+    button {
+      width: 310px;
+      height: 56px;
+      font-size: 18px;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .questionSection {
+    padding: 60px;
+    > ul {
+      width: 100%;
+    }
+  }
+
+  .option {
+    height: 50px;
+
+    svg {
+      width: 270px;
+      height: 50px;
+    }
+
+    button {
+      width: 270px;
+      height: 50px;
+      font-size: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .questionSection {
+    padding: 80px 0 20px;
+    h2 {
+      font-size: 18px;
+      text-align: center;
+      padding: 0 16px;
+      margin-bottom: 50px;
+    }
+
+    > ul {
+      flex-direction: column;
+    }
+  }
+
+  .option {
+    flex: 0 0 56px;
+
+    svg {
+      width: 310px;
+      height: 56px;
+    }
+
+    button {
+      width: 310px;
+      height: 56px;
+      font-size: 14px;
+    }
+  }
+}

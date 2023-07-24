@@ -1,0 +1,134 @@
+[
+  {
+    "id": "questionId1",
+    "title": "How old was your elder brother 10 years before you were born?",
+    "cost": 500,
+    "options": {
+      "A": "10 years",
+      "B": "11 years",
+      "C": "12 years",
+      "D": "14 years"
+    }
+  },
+  {
+    "id": "questionId2",
+    "title": "Which planet is known as the 'Red Planet'?",
+    "cost": 1000,
+    "options": {
+      "A": "Venus",
+      "B": "Mars",
+      "C": "Jupiter",
+      "D": "Saturn"
+    }
+  },
+  {
+    "id": "questionId3",
+    "title": "What is the capital of France?",
+    "cost": 2000,
+    "options": {
+      "A": "Berlin",
+      "B": "Rome",
+      "C": "Paris",
+      "D": "Madrid"
+    }
+  },
+  {
+    "id": "questionId4",
+    "title": "What is the chemical symbol for water?",
+    "cost": 4000,
+    "options": {
+      "A": "O2",
+      "B": "CO2",
+      "C": "H2O",
+      "D": "N2"
+    }
+  },
+  {
+    "id": "questionId5",
+    "title": "Which famous scientist developed the theory of relativity?",
+    "cost": 8000,
+    "options": {
+      "A": "Isaac Newton",
+      "B": "Albert Einstein",
+      "C": "Galileo Galilei",
+      "D": "Nikola Tesla"
+    }
+  },
+  {
+    "id": "questionId6",
+    "title": "Which ocean is the largest in the world?",
+    "cost": 16000,
+    "options": {
+      "A": "Pacific Ocean",
+      "B": "Indian Ocean",
+      "C": "Atlantic Ocean",
+      "D": "Arctic Ocean"
+    }
+  },
+  {
+    "id": "questionId7",
+    "title": "What is the national flower of Japan?",
+    "cost": 32000,
+    "options": {
+      "A": "Rose",
+      "B": "Cherry Blossom",
+      "C": "Tulip",
+      "D": "Lily"
+    }
+  },
+  {
+    "id": "questionId8",
+    "title": "Which famous playwright wrote 'Romeo and Juliet'?",
+    "cost": 64000,
+    "options": {
+      "A": "William Shakespeare",
+      "B": "Jane Austen",
+      "C": "Charles Dickens",
+      "D": "Mark Twain"
+    }
+  },
+  {
+    "id": "questionId9",
+    "title": "What is the symbol for the chemical element oxygen?",
+    "cost": 125000,
+    "options": {
+      "A": "O",
+      "B": "O2",
+      "C": "OX",
+      "D": "OM"
+    }
+  },
+  {
+    "id": "questionId10",
+    "title": "In which country would you find the famous landmark, the Eiffel Tower?",
+    "cost": 250000,
+    "options": {
+      "A": "Italy",
+      "B": "Spain",
+      "C": "France",
+      "D": "Greece"
+    }
+  },
+  {
+    "id": "questionId11",
+    "title": "What is the currency of Japan?",
+    "cost": 500000,
+    "options": {
+      "A": "Yuan",
+      "B": "Euro",
+      "C": "Dollar",
+      "D": "Yen"
+    }
+  },
+  {
+    "id": "questionId12",
+    "title": "Which planet is known as the 'Blue Planet'?",
+    "cost": 1000000,
+    "options": {
+      "A": "Mars",
+      "B": "Venus",
+      "C": "Earth",
+      "D": "Jupiter"
+    }
+  }
+]

@@ -1,0 +1,33 @@
+@use 'scss-reset/reset';
+@import 'colors';
+@import 'fonts';
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-weight: 600;
+  color: var(--dark);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 65px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 116%;
+  margin: 0;
+}
+
+@media screen and (max-width: 960px) {
+  h1 {
+    font-size: 32px;
+    line-height: 37px;
+  }
+}
